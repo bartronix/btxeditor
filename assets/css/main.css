@@ -1,0 +1,148 @@
+html, body {
+	height: 100%;
+}
+	
+#editor, #code-container {
+  	box-shadow: 0 0 2px #CCC;
+  	min-height: 150px;
+  	height: 500px;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#code-editor {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#editor {
+	overflow: auto;
+}
+
+.toolbar {
+	width: 60%;
+	margin: 0 auto;	  
+}
+
+.btn-toolbar, .btn-action {
+	border: 1px solid #C0C0C0;
+	background-color: #ffffff;  	
+  	color: black;
+	width: 26px;
+	height: 26px;
+  	display: inline-block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-action {
+	background-color: #beecd2;
+	width: 70px;
+}
+
+.btn-toolbar:hover {
+	border: 1px solid #858585;
+}
+
+.toolbar button span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	background-size: 20px;
+}
+
+.icon-bold {
+	font-weight: bold;
+}
+
+.icon-italic {
+	font-style: italic;
+}
+
+.icon-underline {
+	text-decoration: underline;
+}
+
+.icon-link {	
+	background: #ffffff url("../icons/icon-link.png") center center no-repeat;
+}
+
+.icon-unlink {
+	background: #ffffff url("../icons/icon-unlink.png") center center no-repeat;
+}
+
+.icon-h1, .icon-h2, .icon-h3, .icon-h4 {
+	color: #0978f6;
+	font-weight: bold;	
+}
+
+.icon-h2 {
+	font-size: 1em;
+}
+
+.icon-h3 {
+	font-size: 0.9em;
+}
+
+.icon-h4 {
+	font-size: 0.8em;
+}
+
+.icon-justify-left {
+	background: #ffffff url("../icons/icon-align-left.png") center center no-repeat;
+}
+
+.icon-justify-center {
+	background: #ffffff url("../icons/icon-align-center.png") center center no-repeat;
+}
+
+.icon-justify-right {
+	background: #ffffff url("../icons/icon-align-right.png") center center no-repeat;
+}
+
+.icon-insert-html {
+	font-size: 8px;
+	color: #0978f6;
+}
+
+.icon-undo {
+	background: #ffffff url("../icons/icon-undo.png") center center no-repeat;
+}
+
+.icon-redo {
+	background: #ffffff url("../icons/icon-redo.png") center center no-repeat;
+}
+
+.icon-insert-ordered-list {
+	background: #ffffff url("../icons/icon-list-bullets.png") center center no-repeat;
+}
+
+.icon-insert-unordered-list {
+	background: #ffffff url("../icons/icon-list-numbers.png") center center no-repeat;
+}
+
+.icon-cut {
+	background: #ffffff url("../icons/icon-cut.png") center center no-repeat;
+}
+
+.icon-copy {
+	background: #ffffff url("../icons/icon-copy.png") center center no-repeat;
+}
+
+.icon-paste {
+	background: #ffffff url("../icons/icon-paste.png") center center no-repeat;
+}
+
+.icon-header {
+	font-weight: bold;
+}
+
+#plugins {
+	overflow: auto;
+	min-height: 28px;
+}

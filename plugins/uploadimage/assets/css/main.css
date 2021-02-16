@@ -1,0 +1,31 @@
+#image-upload {
+	display: none;
+}
+
+#image-upload-progress {
+	text-align: center;
+	margin: 5px;
+	display: none;
+}
+
+#image-upload-error {
+	display: none;
+	text-align: center;
+	color: #c0392b;
+	margin: 20px 0 0 0;
+}
+
+#image-upload-button {
+	background: #ffffff url("../icons/icon-image.png") center center no-repeat;
+	height: 26px;
+	width: 26px;
+	/**/
+	border: 1px solid #0978f6;
+	background-color: #ffffff;
+  	color: black;
+	min-width: 28px;
+	min-height: 28px;
+  	display: inline-block;
+	cursor: pointer;
+	background-size: 20px;
+}
